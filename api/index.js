@@ -17,7 +17,7 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(
         msg.chat.id,
         `hello ${msg.chat.first_name}, welcome...\n
-        click  /predict to know about i and v`
+        click  /predict untuk mengetahui i dan v`
     );   
 });
 
@@ -27,7 +27,7 @@ state = 0;
 bot.onText(/\/predict/, (msg) => { 
     bot.sendMessage(
         msg.chat.id,
-        `input nilai i|v example 4|3`
+        `input nilai i|v example 1|3`
     );   
     state = 1;
 });
